@@ -1,0 +1,9 @@
+TARGETNAME=CpuidBreak
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+SOURCES=DriverEntry.c\
+        ia_specific.c\
+        virtualmachine.c\
+        GetCurProcNum.c\
+        MJ_handle.c
